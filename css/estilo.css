@@ -23,7 +23,7 @@
         position: absolute;
         left: 0;
         display: none;
-        background-color:#F0D5C4; 
+        margin-left: -2px;
 }
   #menu ul li:hover ul {
     display: block;
@@ -339,8 +339,8 @@ clear: both;
 video{
   height: 650px;
   width: 100%;
-  position: absolute;
-  margin-top: 64px;
+  position: relative;
+  margin-top: 190px;
 }
 
 .search-box{
