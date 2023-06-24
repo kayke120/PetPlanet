@@ -339,7 +339,7 @@ clear: both;
 video{
   height: 650px;
   width:100%;
-  position: absolute;
+  position: relative;
   margin-top: -150px;
 }
 
