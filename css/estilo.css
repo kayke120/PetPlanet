@@ -182,7 +182,6 @@
     }
     
    
-    
 
     .card-c h1{
       margin-left: 65px;
@@ -341,7 +340,7 @@ video{
   height: 650px;
   width:100%;
   position: relative;
-  margin-top: 150px;
+  margin-top: -150px;
 }
 
 .search-box{
