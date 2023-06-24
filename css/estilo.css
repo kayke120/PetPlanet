@@ -21,14 +21,14 @@
   }
 #menu ul ul {
         position: absolute;
-        left: 1;
+        left: 0;
         display: none;
 }
   #menu ul li:hover ul {
     display: block;
     transition: background .8s;
     background-color:#F0D5C4; 
-    right: 0;
+    
   }
 #menu ul ul{
     width: 150px;
