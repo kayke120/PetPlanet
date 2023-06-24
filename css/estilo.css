@@ -26,7 +26,8 @@
 }
   #menu ul li:hover ul {
     display: block;
-    
+    transition: background .8s;
+    background-color:#F0D5C4; 
   }
 #menu ul ul{
     width: 150px;
