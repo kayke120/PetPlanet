@@ -340,7 +340,7 @@ video{
   height: 650px;
   width:100%;
   position: relative;
-  margin-top: -150px;
+  margin-bottom: -150px;
 }
 
 .search-box{
