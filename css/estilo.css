@@ -22,7 +22,8 @@
 #menu ul ul {
         position: absolute;
         left: 0;
-        display: none
+        display: none;
+        right: 0;
 }
   #menu ul li:hover ul {
     display: block;
