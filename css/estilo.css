@@ -16,15 +16,21 @@
   #menu ul {
     margin-left: 10px;
     max-width: 85%;
-    
+
     display: inline;
+  }
+#menu ul ul {
+        position: absolute;
+        display: none
+}
+  #menu ul li:hover ul {
+    display: inline-block;
+    
   }
 
   #menu ul li {
-    display: inline;
+    display: block;
     height: 70px;
-
-
   }
   #menu ul li img{
     height:65px; 
