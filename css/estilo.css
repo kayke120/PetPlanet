@@ -21,9 +21,8 @@
   }
 #menu ul ul {
         position: absolute;
-        left: 0;
+        left: 1;
         display: none;
-        background-color: none;
 }
   #menu ul li:hover ul {
     display: block;
