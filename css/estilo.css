@@ -23,7 +23,7 @@
         position: absolute;
         left: 0;
         display: none;
-        right: 5;
+        right: -5;
 }
   #menu ul li:hover ul {
     display: block;
