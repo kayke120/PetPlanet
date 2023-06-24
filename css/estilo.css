@@ -338,8 +338,8 @@ clear: both;
 /*video banner*/
 video{
   height: 650px;
-  width:100%;
-  position: relative;
+  width: 100%;
+  position: absolute;
   margin-top: 64px;
 }
 
