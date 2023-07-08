@@ -202,6 +202,7 @@
       align-self: normal;
       flex-direction: column;
       flex-wrap: wrap;
+      align-items: center;
     }
       
     
@@ -232,8 +233,8 @@
 .card img{
      padding: 15px;
      border-radius: 5%;
-     max-width: 250px;
-     max-height: 250px;
+     max-width: 200px;
+     
 }
     
    .row{
