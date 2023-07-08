@@ -1,0 +1,9 @@
+body{
+    background-color: #ddd0ad;
+}
+.card-check{
+    width: 400px;
+    height: 220px;
+    border-radius: 11px;
+    background-color: #ffffff;
+}
