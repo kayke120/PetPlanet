@@ -197,8 +197,11 @@
       height: 70%;
       transition: all 0.3s ease-out;
       position: relative;
-      display: inline-table;
+      display: flex;
       background-color: rgba(248, 232, 186, 0.712);
+      align-self: normal;
+      flex-direction: column;
+      flex-wrap: wrap;
     }
       
     
