@@ -242,18 +242,7 @@
       flex-wrap: wrap;
     }
 
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    
-    }
-    .row2::after {
-      content: "";
-      clear: both;
-      display: table;
-    
-    }
+
 .banner img{
   width: 100%;
   height: 100%;
