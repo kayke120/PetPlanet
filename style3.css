@@ -1,9 +1,153 @@
 body{
     background-color: #ddd0ad;
 }
-.card-check{
-    width: 400px;
-    height: 220px;
-    border-radius: 11px;
-    background-color: #ffffff;
+#menu {
+    background-color:#F0D5C4;
+    margin-bottom: 10px;
+  }
+
+  #menu ul {
+    margin-left: 10px;
+    max-width: 85%;
+    list-style-type: none;
+    display: inline;
+  }
+#menu ul ul {
+        position: absolute;
+        left: 0;
+        display: none;
+        margin-left: -2px;
 }
+  #menu ul li:hover ul {
+    display: block;
+    transition: background .8s;
+  }
+#menu ul ul{
+    width: 150px;
+}
+#menu ul ul li a{
+    display: block;
+}
+
+  #menu ul li {
+    display: inline;
+    height: 70px;
+    position: relative;
+  }
+  #menu ul li img{
+    height:65px; 
+    width: 65px;
+    margin-top:0;
+    float: left;
+    margin-bottom: 0;
+    padding:none;
+    margin-left: 5px;
+    
+  }
+
+  .icon {
+    position: absolute;
+    left: 5rem;
+    fill: #eeeef1;
+    width: 5rem;
+    height: 2rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+   }   
+  
+  #menu ul li a {
+   
+    font-family: 'Share Tech', sans-serif;
+    font-size: 25px;
+    color:#4C3434;
+    padding: 15px;
+    margin: 0%;
+    margin-bottom: 6px;   
+    margin-top: 0; 
+    display: inline-block;
+    text-decoration: none;
+    transition: background .8s;
+    border-radius: 10px;
+  }
+  h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    color: #000000;
+  }
+  h2{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 15px;
+    color: #fff;
+  }
+  
+  #menu ul li a:hover {
+    background-color:#ff7b00;
+  }
+  
+  #menu ul li:last-child a {
+   margin-top: 2.5px;
+   margin-right: 5px;
+   margin-left: 3px;
+   margin-bottom: auto;
+   float: right;
+   background-color:burlywood;
+   border-radius: 10px;
+    
+  }
+  .search-box{
+    transform: translate(-50%, -50%);
+    top: 3.5%;
+    left: 50%;
+    background: #fff;
+    height: 50px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .loupe-white{
+    display: none;
+  }
+  .search-text{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 0;
+    padding: 0;
+    transition: 0.4s;
+  }
+  .search-btn{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .search-box:hover > .search-text{
+    width: 320px;
+    padding-left: 20px;
+  }
+  .search-box:hover > .search-btn{
+    background: #faa406;
+    margin: -9px;
+  }
+  .search-box:hover > .search-btn .loupe-blue{
+    display: none;
+  }
+  .search-box:hover > .search-btn .loupe-white{
+    display: block;
+  }
+  .carrinho{
+    position: relative;
+    margin-left: 1650px;
+    margin-bottom: -130px;
+    cursor: pointer;
+    padding: 0;
+    bottom: 0;
+    top: -3px;
+    }
