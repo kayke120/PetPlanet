@@ -99,7 +99,7 @@
     float: right;
     background-color:burlywood;
     border-radius: 10px;
-    position: relative;
+    
   }
 
   body{
@@ -427,7 +427,7 @@ video{
   margin-bottom: 20px;
 }
 .carrinho{
-position: relative;
+position: absolute;
 margin-left: 1650px;
 margin-bottom: -130px;
 cursor: pointer;
