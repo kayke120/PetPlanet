@@ -99,7 +99,7 @@
     float: right;
     background-color:burlywood;
     border-radius: 10px;
-    position: absolute;
+    position: relative;
   }
 
   body{
