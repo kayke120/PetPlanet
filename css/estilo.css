@@ -79,12 +79,12 @@
   h1{
     font-family: 'Abril Fatface', cursive;;
     font-size: 28px;
-    color: black;
+    color: #000000;
   }
   h2{
     font-family: 'Share Tech', sans-serif;
     font-size: 20px;
-    color: black;
+    color: red;
   }
   
   #menu ul li a:hover {
