@@ -84,7 +84,7 @@
   h2{
     font-family: 'Sofia Sans Condensed', sans-serif;
     font-size: 15px;
-    color: #fff;
+    color: #000000;
   }
   
   #menu ul li a:hover {
@@ -436,7 +436,4 @@ bottom: 0;
 top: -3px;
 }
 
-.card p{
-    font-family: 'Sofia Sans Condensed', sans-serif;
-}
 
