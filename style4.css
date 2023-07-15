@@ -245,4 +245,9 @@ body{
     input {
       height: 25px;
       width: 200px;
+      border: 1px solid rgba(105, 105, 105, 0.397);
+      padding: 5px 5px 10px 5px;
+      outline: 0;
+      border: 1px solid rgba(105, 105, 105, 0.397);
+      border-radius: 5px;
     }
