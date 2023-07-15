@@ -1,0 +1,248 @@
+
+body{
+    background-color: #e2ccbc;
+}
+#menu {
+    background-color:#F0D5C4;
+    margin-bottom: 10px;
+    margin-top: -8px;
+  }
+
+  #menu ul {
+    margin-left: 10px;
+    max-width: 85%;
+    list-style-type: none;
+    display: inline;
+  }
+#menu ul ul {
+        position: absolute;
+        left: 0;
+        display: none;
+        margin-left: -50px;
+}
+  #menu ul li:hover ul {
+    display: block;
+    transition: background .8s;
+  }
+#menu ul ul{
+    width: 150px;
+}
+#menu ul ul li a{
+    display: block;
+}
+
+  #menu ul li {
+    display: inline;
+    height: 70px;
+    position: relative;
+  }
+  #menu ul li img{
+    height:65px; 
+    width: 65px;
+    margin-top:0;
+    float: left;
+    margin-bottom: 0;
+    padding:none;
+    margin-left: 5px;
+  }
+
+  .icon {
+    position: absolute;
+    left: 5rem;
+    fill: #eeeef1;
+    width: 5rem;
+    height: 2rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+   }   
+  
+  #menu ul li a {
+   
+    font-family: 'Share Tech', sans-serif;
+    font-size: 25px;
+    color:#4C3434;
+    padding: 15px;
+    margin: 0%;
+    margin-bottom: 6px;   
+    margin-top: 0; 
+    display: inline-block;
+    text-decoration: none;
+    transition: background .8s;
+    border-radius: 10px;
+  }
+  h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    color: #000000;
+  }
+  h2{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 15px;
+    color: #fff;
+  }
+  
+  #menu ul li a:hover {
+    background-color:#ff7b00;
+  }
+  
+  #menu ul li:last-child a {
+   margin-top: 2.5px;
+   margin-right: 5px;
+   margin-left: 3px;
+   margin-bottom: auto;
+   float: right;
+   background-color:burlywood;
+   border-radius: 10px;
+    
+  }
+  .search-box{
+    transform: translate(-50%, -50%);
+    top: 3.5%;
+    left: 50%;
+    background: #fff;
+    height: 50px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .loupe-white{
+    display: none;
+  }
+  .search-text{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 0;
+    padding: 0;
+    transition: 0.4s;
+  }
+  .search-btn{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .search-box:hover > .search-text{
+    width: 320px;
+    padding-left: 20px;
+  }
+  .search-box:hover > .search-btn{
+    background: #faa406;
+    margin: -9px;
+  }
+  .search-box:hover > .search-btn .loupe-blue{
+    display: none;
+  }
+  .search-box:hover > .search-btn .loupe-white{
+    display: block;
+  }
+  .carrinho{
+    position: relative;
+    margin-left: 1650px;
+    margin-bottom: -130px;
+    cursor: pointer;
+    padding: 0;
+    bottom: 0;
+    top: -3px;
+    }
+
+    /* Estilo do botão e do menu suspenso */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo do menu suspenso */
+.dropdown select {
+  background-color: rgba(161, 152, 152, 0.315);
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* Personalize o estilo do menu suspenso aqui, conforme necessário */
+
+.dropbtn{
+  background-color: rgba(161, 152, 152, 0.315);
+  color: #000000;
+  border-radius: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Checkout */
+    .submit{
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .box{
+      border-radius: 15px;
+      position: absolute;
+      top: 20%;
+      left: 41%;
+      background-color: #fff;
+      padding: 15px;
+      width: 20%;
+    }
+    fieldset{
+      border: solid #e2ccbc;
+    }
+    .inputUser{
+      border-radius: 4px;
+    }
+    legend{
+      border: 3px solid #e2ccbc;
+      padding: 5px;
+      text-align: center;
+      border-radius: 5px;
+      background-color: #e2ccbc;
+    }
+    .password{
+      border-radius: 4px;
+    }
+    .inputBox{
+      position: relative;
+    }
+    input {
+      height: 25px;
+      width: 200px;
+    }

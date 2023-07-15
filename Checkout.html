@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style4.css">
     <title>Checkout</title>
 </head>
 <body>
@@ -36,5 +36,45 @@
             
         </nav>
     </header>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Finalizar Compra</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required placeholder="Nome Completo">
+                    <label for="nome"></label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required placeholder="Email" >
+                    <label for="nome"></label>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required placeholder="Telefone">
+                    <label for="nome"></label>
+                </div>
+                <br>
+                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>
+                <div class="inputBox">
+                    <br>
+                    <input type="text" name="endereço" id="endereço" class="inputUser" required placeholder="Endereço Para Entrega">
+                    <label for="endereço"></label>
+                </div>
+                <p>Pagamento</p>
+                <div class="dropdown">
+                    <select>
+                      <option value="" disabled selected>Selecione uma opção</option>
+                      <option value="opcao1">Pix</option>
+                      <option value="opcao2">Débito</option>
+                      <option value="opcao3">Crédito</option>
+                    </select>
+                  </div>
+                <input type="submit" name="submit" id="submit" class="submit">
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
