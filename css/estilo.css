@@ -102,7 +102,7 @@
   }
 
   body{
-  background-color: #f9f6f2;
+  background-color: #D0DDD9;
   height: 100%;
   width: 100%;
 
@@ -210,9 +210,8 @@
       border: none;
       outline: 0;
       padding: 12px;
-      color: 
-          #000000;
-      background-color: #f0e0b3;
+      color: #000000;
+      background-color: #69C0B8;
       text-align: center;
       cursor: pointer;
       width: 100%;
