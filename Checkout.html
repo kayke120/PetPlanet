@@ -12,7 +12,7 @@
             <div class="group">
                 <!-- Nav bar-->
             <ul>
-                <li><img src="SEM_FUNDO.png"></li>
+                <li><img src="LOGO.png"></li>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="produtos.html">Produtos</a></li>
@@ -36,44 +36,23 @@
             
         </nav>
     </header>
-    <div class="box">
-        <form action="">
-            <fieldset>
-                <legend><b>Finalizar Compra</b></legend>
-                <br>
-                <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="inputUser" required placeholder="Nome Completo">
-                    <label for="nome"></label>
-                </div>
-                <br>
-                <div class="inputBox">
-                    <input type="email" name="email" id="email" class="inputUser" required placeholder="Email" >
-                    <label for="nome"></label>
-                </div>
-                <br>
-                <div class="inputBox">
-                    <input type="tel" name="telefone" id="telefone" class="inputUser" required placeholder="Telefone">
-                    <label for="nome"></label>
-                </div>
-                <br>
-                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
-                <input type="date" name="data_nascimento" id="data_nascimento" class="inputUser" required>
-                <div class="inputBox">
-                    <br>
-                    <input type="text" name="endereço" id="endereço" class="inputUser" required placeholder="Endereço Para Entrega">
-                    <label for="endereço"></label>
-                </div>
-                <p>Pagamento</p>
-                <div class="dropdown">
-                    <select>
-                      <option value="" disabled selected>Selecione uma opção</option>
-                      <option value="opcao1">Pix</option>
-                      <option value="opcao2">Débito</option>
-                      <option value="opcao3">Crédito</option>
-                    </select>
-                  </div>
-                <input type="submit" name="submit" id="submit" class="submit">
-            </fieldset>
+    <div class="container">
+        <h1>Produtos no Carrinho</h1>
+        <h1>Dados de Pagamento</h1>
+        <form class="payment-form">
+            <label for="card-number">Número do Cartão:</label>
+            <input type="text" id="card-number" name="card-number" placeholder="0000 0000 0000 0000">
+
+            <label for="card-name">Nome no Cartão:</label>
+            <input type="text" id="card-name" name="card-name" placeholder="Nome do Titular">
+
+            <label for="expiry-date">Data de Expiração:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/AA">
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="CVV">
+
+            <button type="submit">Pagar</button>
         </form>
     </div>
 </body>

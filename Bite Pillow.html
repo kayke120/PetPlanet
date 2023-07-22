@@ -12,7 +12,7 @@
         <div class="group">
             <!-- Nav bar-->
         <ul>
-            <li><img src="SEM_FUNDO.png"></li>
+            <li><img src="LOGO.png"></li>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="sobre.html">Sobre</a></li>
             <li><a href="produtos.html">Produtos</a></li>
@@ -46,16 +46,9 @@
                 <span>Bite Pillow</span>
               </div>
               <div class="quantity">
-                <button>
-                  <svg fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" stroke="#47484b" d="M20 12L4 12"></path>
-                  </svg>
-                </button>
-                <label>1</label>
-                <button>
-                  <svg fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" stroke="#47484b" d="M12 4V20M20 12H4"></path>
-                  </svg>
+                <button id="increment" class="namber-add">+</button>
+                <p id="counter" class="namber">0</p>
+                <button id="decrement" class="namber-remove">-</button>
                 </button>
               </div>
               <label class="price small">R$160,00</label>
@@ -86,5 +79,6 @@
           </div>
         </div>
     </div>
+    <script src="script.js"></script>
     </body>
 </html>
