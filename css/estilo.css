@@ -87,12 +87,6 @@
   }
   
   #menu ul li a:hover {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 5px;
-    bottom: -10px;
-    left: -4px;
     transform: scaleX(0);
     box-shadow:
        0 5px 0 #e86d47,
