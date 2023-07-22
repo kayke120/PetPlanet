@@ -95,9 +95,9 @@
     left: -4px;
     transform: scaleX(0);
     box-shadow:
-       0 5px 0 #E8476A,
-      0 10px 0 purple;
-    background: #FFA01B ;
+       0 5px 0 #e86d47,
+      0 10px 0 rgb(4, 0, 252);
+    background: #fcab39 ;
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
   }
