@@ -87,7 +87,19 @@
   }
   
   #menu ul li a:hover {
-    background-color:#ff7b00;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: -10px;
+    left: -4px;
+    transform: scaleX(0);
+    box-shadow:
+       0 5px 0 #E8476A,
+      0 10px 0 purple;
+    background: #FFA01B ;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
   }
   
   #menu ul li:last-child a {
